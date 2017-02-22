@@ -1,6 +1,7 @@
 Session 4
 Assignment 1
-1.	Write a Java program, to take a HDFS Path as input and display all the files and sub-directories in that HDFS path.
+
+1.Write a Java program, to take a HDFS Path as input and display all the files and sub-directories in that HDFS path.
 
 import java.io.*;
 import org.apache.hadoop.conf.Configuration;
@@ -39,7 +40,7 @@ public class FileListing {
 	}
 }
 
-2.	Modify the previous program to list all the files and sub-directories in the HDFS path recursively.
+2.Modify the previous program to list all the files and sub-directories in the HDFS path recursively.
 
 import java.io.*;
 import java.net.URI;
@@ -74,7 +75,7 @@ public class FileListRecursively
 	}
 }
 
-3. Modify the previous program to take multiple HDFS paths (separated by space) and list all the files and sub-directories in those HDFS paths recursively.
+3.Modify the previous program to take multiple HDFS paths (separated by space) and list all the files and sub-directories in those HDFS paths recursively.
 
 import java.io.*;
 import java.net.URI;
