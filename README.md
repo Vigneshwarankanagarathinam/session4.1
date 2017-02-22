@@ -20,7 +20,6 @@ public class FileListing {
 			Configuration conf = new Configuration();
 			FileSystem fileSystem = FileSystem.get(path.toUri(), conf);
 			FileStatus[] fileStatus=fileSystem.listStatus(path);
-			
 			for (FileStatus fStat : fileStatus) {
 				if (fStat.isDirectory()) {
 					System.out.println("Directory: " + fStat.getPath());
